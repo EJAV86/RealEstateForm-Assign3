@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mystyle.css">
+    <title>Contact us</title>
+</head>
+<body>
+    <header class="site-second">
+            <div class="flex-header container">
+                <h1>Real Estate</h1>
+                <nav class="menu">
+                    <a href="index.html">Home</a>
+                    <a href="#">About</a>
+                    <a href="#">Blog</a>
+                    <a href="contact.html">Contact</a>
+                </nav>  
+            </div>
+    </header>
+
+    <main class="container">
+        <h2>Contact</h2>
+        <div class="main-paragraph">
+        <p>Fill the next information</p>
+        </div>
+
+        <Form class="form-container">
+            <fieldset>
+                <legend>Personal information</legend>
+                <div class="input">
+                    <label>Name:</label>
+                    <input type="text" placeholder="Type your name">     
+                </div>
+                <div class="input">
+                    <label>Email:</label>
+                    <input type="text" placeholder="Type your Email">     
+                </div>
+                <div class="input">
+                    <label>Phone:</label>
+                    <input type="tel" placeholder="Type your phone number">     
+                </div>
+                <div class="input container">
+                    <label>Message:</label>
+                    <textarea cols="30" rows="10"></textarea>    
+                </div>
+            </fieldset>
+
+        </Form>
+
+        <Form class="form-container">
+            <fieldset>
+                <legend>Product information</legend>
+                <div class="input container">
+                   <label>Type of product:</label><br>
+                   <label></label><br>
+                    <input type="radio" id="html" name="fav_language" value="HTML">
+                    <label for="html">PRODUCT #1</label><br>
+
+                    <input type="radio" id="css" name="fav_language" value="CSS">
+                    <label for="css">PRODUCT #2</label><br>
+
+                     <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+                    <label for="javascript">PRODUCT #3</label> 
+                </div>
+                <label></label><br>
+                <div class="input container">
+                    <label>Number of product:</label>
+                    <input type="tel" placeholder="number">     
+                </div>
+            </fieldset>
+
+        </Form>
+        <Form class="form-container">
+            <fieldset>
+                <legend>Contact information</legend>
+                <div class="input container">
+                   <label></label><br>
+                    <input type="radio" id="html" name="fav_language" value="HTML">
+                    <label for="html">PHONE</label><br>
+
+                    <input type="radio" id="css" name="fav_language" value="CSS">
+                    <label for="css">EMAIL</label><br>
+                </div>
+                <div class="p-container">
+                <label></label><br>
+                <P>If you want to be contacted by phone. Please select a day of the week</P>
+                </div>
+                <label></label><br>
+                    <input list="browsers">
+                    <datalist id="browsers">
+                    <option value="Monday">
+                    <option value="Tuesday">
+                    <option value="Wednesday">
+                    <option value="Thursday">
+                    <option value="Friday">
+                    </datalist><br><br><br>
+                    <div class="submit-button container">
+                    <input type="submit" value="Submit">
+                    </div>
+            </fieldset>
+        </Form>
+    </main>
+</body>
+</html>
+
+    
